@@ -66,7 +66,7 @@ const conf = convict({
   },
   default_downloads: {
     format: Number,
-    default: 1,
+    default: 5,
     env: 'DEFAULT_DOWNLOADS'
   },
   max_downloads: {
@@ -152,7 +152,7 @@ const conf = convict({
   },
   max_file_size: {
     format: Number,
-    default: 1024 * 1024 * 1024 * 2.5,
+    default: 1024 * 1024 * 1024 * 10,
     env: 'MAX_FILE_SIZE'
   },
   l10n_dev: {
@@ -162,7 +162,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'https://send.ancho.rs',
     env: 'BASE_URL'
   },
   detect_base_url: {

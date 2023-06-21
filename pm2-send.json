@@ -1,0 +1,9 @@
+{
+	"apps": [
+		{
+			"name": "send",
+			"script": "npm",
+			"args": "run prod"
+		}
+	]
+}
